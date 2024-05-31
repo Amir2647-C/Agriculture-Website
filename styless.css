@@ -1,0 +1,62 @@
+/* Styling for the body */
+body {
+    background: linear-gradient(to right, #ff6f00, #f44336); /* Gradient background from Orange to Red */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Styling for the container */
+.container {
+    background-color: white; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    width: 300px; /* Fixed width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styling for heading */
+h2 {
+    text-align: center; /* Center alignment */
+    color: #ff6f00; /* Orange color */
+}
+
+/* Styling for form groups */
+.form-group {
+    margin-bottom: 20px; /* Margin between form groups */
+}
+
+/* Styling for labels */
+label {
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for buttons */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ff6f00; /* Orange background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Cursor style */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #ff7f00; /* Darker orange background color on hover */
+}

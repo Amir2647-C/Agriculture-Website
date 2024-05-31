@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rab Nawaz Kamishan Shop - Product Listing</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- Navbar Brand -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Rab Nawaz Kamishan Shop Logo" class="logo">
+                Rab Nawaz Kamishan Shop
+            </a>
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Collapsible Content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navbar Links -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- Home Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Products Link (active) -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="product-listing.html">Products</a>
+                    </li>
+                    <!-- Cart Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                    <!-- About Us Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <!-- Contact Us Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <!-- Login/Signup Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="login/Signup.html">Login/Signup</a>
+                    </li>
+                </ul>
+                <!-- Search Bar -->
+                <form class="form-inline my-2 my-lg-0 ml-lg-3 search-bar">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container my-5">
+        <!-- Product Title -->
+        <h1 class="text-center" id="product-title">Product Title</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Product Image -->
+                <img id="product-image" src="" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <!-- Product Price -->
+                <h2 id="product-price">$0.00</h2>
+                <!-- Product Description -->
+                <p id="product-description">Product description goes here.</p>
+                <!-- Add to Cart Button -->
+                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Rab Nawaz Kamishan Shop. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript files -->
+    <script src="script.js"></script> 
+    <script src="details.js"></script> <!-- JavaScript file to handle product details -->
+</body>
+</html>
